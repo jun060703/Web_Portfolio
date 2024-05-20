@@ -1,14 +1,116 @@
-@font-face {
-  font-family: "Ownglyph_Dailyokja-Rg";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/Ownglyph_Dailyokja-Rg.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: normal;
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0e0b16;
+  color: #fff;
 }
 
-.font {
-  font-family: "Ownglyph_Dailyokja-Rg";
-}
-.flex {
+header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #2e2a4a;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5em;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #1f1147, #2b1a63);
+}
+
+#projects {
+  background: #1b1b2f;
+  overflow: hidden;
+  position: relative;
+}
+
+.projects-container {
+  display: flex;
+  width: 100vw;
+}
+
+.project-card {
+  flex: 0 0 100vw;
+  background: #0f3460;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #e43f5a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #53354a;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#skills {
+  background: #162447;
+}
+
+#experience {
+  background: #1f4068;
+}
+
+#contact {
+  background: #1b1b2f;
+}
+
+.social-media a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #e43f5a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2e2a4a;
+  color: #fff;
+}
+
+a {
+  color: #e43f5a;
+}
+
+button {
+  background: #53354a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
